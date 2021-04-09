@@ -89,7 +89,8 @@ nav a{
     width:20%;
     padding:1%;
 }
-.header-image{
+
+.header-image img{
     width:80%;
     display: flex;
     justify-content: center;
