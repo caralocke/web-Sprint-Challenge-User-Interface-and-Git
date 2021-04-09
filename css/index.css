@@ -55,19 +55,20 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
     padding:2%;
 }
 
 p {
-    font-size:1.7rem;
+    font-size:1.5rem;
     line-height: 2.4;
     padding: 2%;
     font-family: 'Rubik', sans-serif;
 }
 a{
+    font-size: 1.8rem;
     text-decoration: none;
     color:black;
     font-family: 'Roboto', sans-serif;
@@ -230,10 +231,12 @@ footer {
     width: 100%;
     background: black;
     display: flex;
+    justify-content: flex-start;
 }
-footer nav {
+.content footer nav {
     width: 60%;
     font-size: 14px;
+    margin-left: 1;
 }
 footer nav a {
     color: white;
