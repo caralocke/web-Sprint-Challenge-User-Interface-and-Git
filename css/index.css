@@ -27,7 +27,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 2;
 }
 ol, ul {
 	list-style: none;
@@ -47,7 +47,7 @@ table {
 
 * {
     box-sizing: border-box;
-    border:0;
+    border:1px solid grey;
 }
 
 html, body {
@@ -74,11 +74,9 @@ a{
 header{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    max-width: 100%;
 }
 nav {
-    width:100%;
+    width:80%;
     height:10vh;
     display:flex;
     justify-content: center;
@@ -91,23 +89,19 @@ nav a{
     width:20%;
     padding:1%;
 }
-header img{
-    width:100%;
-    padding:3%;
-}
 .header-image{
     width:100%;
     display: flex;
     justify-content: center;
     object-fit: cover;
 }
-
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
 .image-container {
-    width: 40%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     display:block;
@@ -126,9 +120,6 @@ header img{
     background-color: white;
     border: 3px solid black;
     border-radius: 10px;
-}
-.about-page{
-    border-bottom: 1px dashed black;
 }
 .top-content {
     display: flex;
@@ -218,7 +209,6 @@ header img{
     width:100%;
     display:flex;
     flex-wrap:wrap;
-    padding:5%;
 }
 .image{
     width:55%;
@@ -235,6 +225,13 @@ header img{
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+.bottom {
+    border-bottom: 1px dashed black;
+    width:80%;
+    display:flex;
+    justify-content: center;
+    padding:5%;
 }
 
 footer {
