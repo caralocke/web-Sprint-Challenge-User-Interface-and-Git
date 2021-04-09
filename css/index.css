@@ -76,7 +76,6 @@ header{
     flex-direction: column;
     justify-content: center;
     max-width: 100%;
-    padding:5%;
 }
 nav {
     width:100%;
@@ -85,17 +84,22 @@ nav {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    padding: 5%;
+    padding:2%;
     text-align: center;
 }
 nav a{
     width:20%;
     padding:1%;
 }
+header img{
+    width:100%;
+    padding:3%;
+}
 .header-image{
     width:100%;
     display: flex;
     justify-content: center;
+    object-fit: cover;
 }
 
 .container {
