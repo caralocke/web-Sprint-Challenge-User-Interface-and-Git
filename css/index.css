@@ -104,20 +104,21 @@ nav a{
 }
 .about-page{
     width:80%;
-    margin: 0 auto;
+    padding:2%;
 }
 .image-container {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    display:block;
-    justify-content: center; 
+}
+.img-wrapper{
+    padding:2%;    
+    border-bottom: 1px dashed black;
 }
 .image-container .image{
     width:50%;
     height:60%;
     padding:1%;
-    border-bottom: 1px dashed black;
 }
 .image img{
 height: 100%;
