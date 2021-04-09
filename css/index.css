@@ -47,7 +47,7 @@ table {
 
 * {
     box-sizing: border-box;
-    border:1px solid grey;
+    border:0;
 }
 
 html, body {
@@ -107,13 +107,17 @@ header img{
     margin: 0 auto;
 }
 .image-container {
-    width: 100%;
-    margin: 0 auto;
+    width: 40%;
     display: flex;
-    flex-wrap: wrap;        
+    flex-wrap: wrap;
+    display:block;
+    justify-content: center; 
 }
 .image-container .image{
     width:40%;
+    height:40%;
+    padding:1%;
+    border-bottom: 1px dashed black;
 }
 .button{
     width:25%;
@@ -122,6 +126,9 @@ header img{
     background-color: white;
     border: 3px solid black;
     border-radius: 10px;
+}
+.about-page{
+    border-bottom: 1px dashed black;
 }
 .top-content {
     display: flex;
@@ -211,6 +218,7 @@ header img{
     width:100%;
     display:flex;
     flex-wrap:wrap;
+    padding:5%;
 }
 .image{
     width:55%;
